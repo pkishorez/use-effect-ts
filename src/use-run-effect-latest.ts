@@ -17,8 +17,8 @@ export function useRunEffectLatest<Args extends any[], A, E>(
 
   return (...args: Args) => {
     if (!fiberHandle) {
-      return console.error(
-        "useRunEffectLatest: No scope available, effect will not run.",
+      throw new Error(
+        "useRunEffectLatest: No scope available, effect will not run. Consider using useComponentLifecycle to call initial run.",
       );
     }
 
