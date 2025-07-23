@@ -15,8 +15,8 @@ importers:
         specifier: ^19.1.8
         version: 19.1.8
       effect:
-        specifier: 3.16.12
-        version: 3.16.12
+        specifier: 3.17.1
+        version: 3.17.1
       react:
         specifier: 19.1.0
         version: 19.1.0
@@ -38,8 +38,8 @@ packages:
   csstype@3.1.3:
     resolution: {integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==}
 
-  effect@3.16.12:
-    resolution: {integrity: sha512-N39iBk0K71F9nb442TLbTkjl24FLUzuvx2i1I2RsEAQsdAdUTuUoW0vlfUXgkMTUOnYqKnWcFfqw4hK4Pw27hg==}
+  effect@3.17.1:
+    resolution: {integrity: sha512-t917ks10FGNf7MpwOxHUg6vo42p0XsdMHuBMVpy4NttPu5gIv8/ah5MgbHLVQJ2kmDvZfQUT1/xyCa1IR09u2Q==}
 
   fast-check@3.23.2:
     resolution: {integrity: sha512-h5+1OzzfCC3Ef7VbtKdcv7zsstUQwUDlYpUTvjeUsJAssPgLn7QzbboPtL5ro04Mq0rPOsMzl7q5hIbRs2wD1A==}
@@ -69,7 +69,7 @@ snapshots:
 
   csstype@3.1.3: {}
 
-  effect@3.16.12:
+  effect@3.17.1:
     dependencies:
       '@standard-schema/spec': 1.0.0
       fast-check: 3.23.2
